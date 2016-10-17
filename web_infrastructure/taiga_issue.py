@@ -87,7 +87,7 @@ options:
     choices: ["present", "absent"]
     default: present
 author: Alejandro Guirao (@lekum)
-requirements: [python-taiga]
+requirements: ['python-taiga(U(https://https://pypi.python.org/pypi/python-taiga/)) > 0.8.6']
 notes:
 - The authentication is achieved either by the environment variable TAIGA_TOKEN or by the pair of environment variables TAIGA_USERNAME and TAIGA_PASSWORD
 '''
